@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   # GET /about
   get "about", to: "about#index"
-
+  get "careers", to: "careers#index"
   root to: "main#index"
 
 end
